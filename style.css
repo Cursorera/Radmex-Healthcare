@@ -151,8 +151,8 @@ Font Colour
 .text-body p,
 .text-body h2,
 #Herosection h1,
-#Features .container-body .text .title,
-#Features .container-body .text .description,
+#Products .container-body .text .title,
+#Products .container-body .text .description,
 .pricing-table .price {
   color: var(--neutral-900);
 }
@@ -235,7 +235,7 @@ h2 {
   line-height: var(--lh-displayMD);
   letter-spacing: -0.025em;
 }
-#Features .container-body .text .title,
+#Products .container-body .text .title,
 #Pricing .inner-box .price {
   font-size: var(--fs-displaySM);
   line-height: var(--lh-displaySM);
@@ -249,7 +249,7 @@ h2 {
   font-weight: 400;
 }
 #Metric .content-item .Description,
-#Features .container-body .text .description,
+#Products .container-body .text .description,
 #Pricing .inner-box .title,
 #Pricing .inner-box .price span.duration,
 #Pricing .inner-box .table-content ul li,
@@ -273,7 +273,7 @@ Theme Style
 
 ***/
 #Herosection,
-#Features .container,
+#Products .container,
 #Pricing .container,
 .section .container,
 #FAQ,
@@ -281,8 +281,8 @@ Theme Style
   padding-top: 80px;
   padding-bottom: 80px;
 }
-#Features .text-body h1,
-#Features .text-body p,
+#Products .text-body h1,
+#Products .text-body p,
 #Pricing .text-body h1,
 #Pricing .text-body p {
   max-width: 800px;

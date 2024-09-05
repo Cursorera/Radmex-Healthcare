@@ -12,7 +12,7 @@ function Herosection() {
               Revolutionizing Renal Care with Cutting-Edge Treatments
               </h1>
               <p class="mt-3">
-              Innovative Nephrology Solutions for Enhanced Patient Recovery
+              RADMEX HEALTHCARE PVT. LTD. is a leading healthcare company specializing in the Nephrology segment, operating at a pan-India level. We are dedicated to providing world-class quality products and exceptional services to our customers, supported by a team of professionals and a strong distribution network.
               </p>
             </div>
             <div class="btns-group mt-3">

@@ -1,5 +1,5 @@
-function Features() {
-  const Features = document.getElementById("Features");
+function Products() {
+  const Products = document.getElementById("Products");
   const Container = document.createElement("div");
   Container.classList.add("container");
   Container.innerHTML = `
@@ -8,13 +8,8 @@ function Features() {
 >
   <h2 class="title fw-bold">Tailor-made products</h2>
   <p class="">
-  At Radmex Healthcare Pvt Ltd, we're committed to advancing the field of nephrology with our specialized, high-quality renal care medicines. Designed to meet the critical needs of patients with renal conditions, our products promote faster, more complete recovery, setting new standards in treatment excellence
+  We offer a range of world-class quality products, including [Renal Medicines, Renal Transplantation and Renal Nutritious Products  products, e.g., dialysis medicines, kidney transplant medications, & nutritional products].
   </p>
-</div>
-<div
-class="text-body text-center d-flex flex-column align-items-center"
->
-<h4 class="title fw-bold">Renal Medicine</h4>
 </div>
 <div
   class="container-body row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4"
@@ -120,16 +115,9 @@ class="text-body text-center d-flex flex-column align-items-center"
     Pre & Pro Biotec-45 Billion CFU Capsule
   </div>
 </div>
-
 </div>
-
-</div>
-<div
-class="text-body text-center d-flex flex-column align-items-center mt-10"
->
-<h4 class="title fw-bold">Transplant Range</h4>
 </div>
 `;
-  Features.appendChild(Container);
+  Products.appendChild(Container);
 }
-Features();
+Products();

@@ -16,10 +16,10 @@ function Navbar() {
 <div class="nav-right d-flex align-items-center">
 <ul class="navbar-nav d-none d-lg-flex">
     <li class="nav-item">
-      <a class="nav-link" href="#Features">About Us</a>
+      <a class="nav-link" href="#Herosection">About Us</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#Pricing">Products</a>
+      <a class="nav-link" href="#Products">Products</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#Careers">Contact Us</a>
@@ -55,7 +55,7 @@ function Navbar() {
   <div class="offcanvas-body">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#Features">Features</a>
+        <a class="nav-link" href="#Products">Products</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#Pricing">Pricing</a>

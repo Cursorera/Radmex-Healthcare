@@ -10,63 +10,52 @@ function Testimonial() {
             <div class="quote-mark position-absolute">
               <img src="./Images/Quote mark.png" alt="" srcset="" />
             </div>
-            <h2 class="title fw-bold">Real Stories from Real Customers</h1>
-            <p>Get inspired by these stories.</p>
+            <h2 class="title fw-bold">Our Strengths and Values</h1>
           </div>
           <div class="col">
             <div class="testimonial-item bg-white rounded item-1">
-              <div class="client-logo">
-                <img src="./Images/Client-logo-01.svg" alt="" srcset="" />
-              </div>
               <div class="content mt-3">
                 <div class="feed-personalDetails">
-                  <p class="feed">
-                    To quickly start my startup landing page design, I was
-                    looking for a landing page UI Kit. Landify is one of the
-                    best landing page UI kit I have come across. It’s so
-                    flexible, well organised and easily editable.
-                  </p>
-                  <div class="personal-detail d-flex flex-column mt-3">
-                    <span class="per-name fw-bold"> Floyd Miles </span>
-                    <span class="per-role"> Vice President, GoPro </span>
-                  </div>
+                <ul class="feed">
+                <li>
+                Professional and dedicated team
+                </li>
+                <li>
+                Strong distribution network across India
+                </li>
+                <li>
+                World-class quality products
+                </li>
+                <li>
+                Supported by India's leading nephrologists
+                </li>
+                <li>
+                Commitment to innovation and customer satisfaction
+                </li>
+                </ul>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col mt-4">
+          <div class="col">
             <div class="testimonial-item bg-white rounded">
-              <div class="client-logo">
-                <img src="./Images/Client-logo-02.svg" alt="" srcset="" />
-              </div>
               <div class="content mt-3">
-                <div class="feed-personalDetails">
-                  <p class="feed">
-                    I used landify and created a landing page for my startup
-                    within a week. The Landify UI Kit is simple and highly
-                    intuitive, so anyone can use it.
-                  </p>
-                  <div class="personal-detail d-flex flex-column mt-3">
-                    <span class="per-name fw-bold">Jane Cooper</span>
-                    <span class="per-role">CEO, Airbnb</span>
-                  </div>
-                </div>
+              <div class="feed-personalDetails">
+              <ul class="feed">
+              <li>
+              Quality: We are committed to providing the highest quality products and services.
+              </li>
+              <li>
+              Integrity: We operate with the highest standards of ethics and integrity.
+              </li>
+              <li>
+              Innovation: We strive to innovate and improve our products and services continuously.
+              </li>
+              <li>
+              Customer Satisfaction: We are dedicated to exceeding our customers' expectations.
+              </li>
+              </ul>
               </div>
-            </div>
-            <div class="testimonial-item bg-white rounded mt-4">
-              <div class="client-logo">
-                <img src="./Images/Client-logo-03.svg" alt="" srcset="" />
-              </div>
-              <div class="content mt-3">
-                <div class="feed-personalDetails">
-                  <p class="feed">
-                    Landify saved our time in designing my company page.
-                  </p>
-                  <div class="personal-detail d-flex flex-column mt-3">
-                    <span class="per-name fw-bold">Kristin Watson</span>
-                    <span class="per-role">Co-Founder, Strapi</span>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

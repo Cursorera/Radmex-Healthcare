@@ -11,16 +11,6 @@ function Footer() {
               </a>
             </div>
             <div class="nav-links d-flex flex-column mt-4">
-              <ul class="nav justify-content-left row-1">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Download Now</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Licence</a>
-                </li>
-              </ul>
               <ul class="nav justify-content-left row-2">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#Metric"
@@ -28,7 +18,7 @@ function Footer() {
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#Features">Facebook</a>
+                  <a class="nav-link" href="#Products">Facebook</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#Pricing">Instgram</a>
