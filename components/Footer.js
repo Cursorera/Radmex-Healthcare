@@ -13,15 +13,10 @@ function Footer() {
             <div class="nav-links d-flex flex-column mt-4">
               <ul class="nav justify-content-left row-2">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#Metric"
-                    >About</a
-                  >
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="#Products">Facebook</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#Pricing">Instgram</a>
+                  <a class="nav-link" target="_blank" href="https://www.instagram.com/radmexhealthcare">Instagram</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">News</a>
