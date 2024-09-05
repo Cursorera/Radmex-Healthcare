@@ -41,50 +41,18 @@ function Navbar() {
   id="offcanvasRight"
   aria-labelledby="offcanvasRightLabel"
 >
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasRightLabel">
-      Offcanvas right
-    </h5>
-    <button
-      type="button"
-      class="btn-close"
-      data-bs-dismiss="offcanvas"
-      aria-label="Close"
-    ></button>
-  </div>
   <div class="offcanvas-body">
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#Products">Products</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Pricing">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Careers">Careers</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#FAQ">Help</a>
-      </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#Herosection">About Us</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#Products">Products</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#Careers">Contact Us</a>
+  </li>
     </ul>
-    <div class="badges-items h-100 mt-3 d-flex flex-column">
-      <a class="badge-item text-decoration-none" href="#1">
-        <img
-          class="item"
-          src="./Images/Store badge.svg"
-          alt=""
-          srcset=""
-        />
-      </a>
-      <a class="badge-item text-decoration-none" href="#2">
-        <img
-          class="item"
-          src="./Images/Store badge-1.svg"
-          alt=""
-          srcset=""
-        />
-      </a>
-    </div>
   </div>
 </div>
     `;

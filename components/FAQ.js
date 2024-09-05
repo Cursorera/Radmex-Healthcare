@@ -18,7 +18,7 @@ function FAQ() {
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-              1. What types of renal conditions do your products address?
+              1. What renal conditions do your products treat?
               </button>
             </h2>
             <div
@@ -42,7 +42,7 @@ function FAQ() {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-              2. How can I purchase Radmex Healthcare products?
+              2. How can I buy your products?
               </button>
             </h2>
             <div
@@ -66,7 +66,7 @@ function FAQ() {
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                3. Are your products suitable for all age groups?
+                3. Are your products suitable for all ages?
               </button>
             </h2>
             <div
@@ -90,7 +90,7 @@ function FAQ() {
                 aria-expanded="false"
                 aria-controls="collapseFour"
               >
-                4. What makes Radmex Healthcare products different from others on the market?
+                4. What sets your products apart?
               </button>
             </h2>
             <div
@@ -114,7 +114,7 @@ function FAQ() {
                 aria-expanded="false"
                 aria-controls="collapseFive"
               >
-                5. How can I get in touch with Radmex Healthcare for more information?
+                5. How can I contact Radmex Healthcare?
               </button>
             </h2>
             <div

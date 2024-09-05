@@ -5,7 +5,7 @@ function Metrics() {
   Container.innerHTML = `
     <div class="row row-cols-1 row-cols-lg-2 gy-5 gx-5">
           <div class="text-body col">
-            <h2 class="fw-bold">Our 18 years of achievements</h2>
+            <h2 class="fw-bold">Our 3 years of achievements</h2>
             <p class="Description mt-2">
               With our super powers we have reached this
             </p>
@@ -18,7 +18,7 @@ function Metrics() {
                 </div>
                 <div class="text ms-3">
                   <div class="title fw-bold">10,000+</div>
-                  <div class="Description">Downloads per day</div>
+                  <div class="Description">Happy Customers</div>
                 </div>
               </div>
               <div class="content-item d-flex align-items-center col">
@@ -44,7 +44,7 @@ function Metrics() {
                   <img src="./Images/Base-feature-icon-6.svg" alt="" />
                 </div>
                 <div class="text ms-3">
-                  <div class="title fw-bold">140</div>
+                  <div class="title fw-bold">14</div>
                   <div class="Description">Countries</div>
                 </div>
               </div>
