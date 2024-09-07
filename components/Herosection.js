@@ -16,7 +16,7 @@ function Herosection() {
               </p>
             </div>
             <div class="btns-group mt-3">
-              <a class="button btn-theme-default" href="#">Contact Us</a>
+              <a class="button btn-theme-default" href="https://forms.gle/tx5c3x2FmGu6A1rQ7">Contact Us</a>
             </div>
           </div>
         </div>

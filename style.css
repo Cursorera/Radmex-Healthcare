@@ -10,7 +10,7 @@ Global Settings
   --primary-50: #f5f3ff;
   --primary-100: #ede9fe;
   --primary-300: #c4b5fd;
-  --primary-600: #7c3aed;
+  --primary-600: #0280ba;
   --primary-900: #4c1d95;
   --secondary-50: #ecfeff;
   --secondary-100: #d5fafc;
@@ -230,11 +230,11 @@ h2 {
   line-height: var(--lh-displayLG);
   letter-spacing: -0.025em;
 }
-#Metric .content-item .title {
+/* #Metric .content-item .title {
   font-size: var(--fs-displayMD);
   line-height: var(--lh-displayMD);
   letter-spacing: -0.025em;
-}
+} */
 #Products .container-body .text .title,
 #Pricing .inner-box .price {
   font-size: var(--fs-displaySM);
@@ -492,6 +492,7 @@ Pricing Table Section
 }
 .pricing-table .table-footer {
   position: relative;
+  margin-top: 10px;
 }
 .pricing-table .table-footer a {
   position: relative;
@@ -522,7 +523,8 @@ Testimonial Section
 }
 #Testimonial .testimonial-items,
 #Testimonial .testimonial-items .item-1 {
-  margin-top: 120px;
+  margin-top: 80px;
+  margin-bottom: 10px;
 }
 #Testimonial .text-body {
   top: -80px;
@@ -557,10 +559,10 @@ Footer Section
 
 ***/
 #Footer {
-  background-color: var(--black);
+  background-color: var(--secondary-100);
 }
 #Footer a {
-  color: var(--white);
+  color: var(--black);
   padding-left: 0px;
 }
 #Footer a:hover {

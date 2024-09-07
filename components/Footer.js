@@ -13,7 +13,7 @@ function Footer() {
             <div class="nav-links d-flex flex-column mt-4">
               <ul class="nav justify-content-left row-2">
                 <li class="nav-item">
-                  <a class="nav-link" href="#Products">Facebook</a>
+                  <a class="nav-link" target="_blank" href="https://www.instagram.com/radmexhealthcare">Facebook</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" target="_blank" href="https://www.instagram.com/radmexhealthcare">Instagram</a>
@@ -22,13 +22,11 @@ function Footer() {
                   <a class="nav-link" href="#">News</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contacts</a>
+                  <a class="nav-link" target="_blank" href="https://forms.gle/tx5c3x2FmGu6A1rQ7">Contacts</a>
                 </li>
               </ul>
             </div>
-            <div class="copyrights mt-4">
-              © 2024 <a class='text-decoration-underline' href="">Radmex Healthcare</a>
-            </div>
+       
           </div>
 
         </div>
@@ -36,3 +34,7 @@ function Footer() {
   Footer.appendChild(Container);
 }
 Footer();
+
+{/* <div class="copyrights mt-4">
+<span class='text-decoration-underline'> © 2024 Radmex Healthcare</a>
+</div> */}

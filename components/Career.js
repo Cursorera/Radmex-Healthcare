@@ -14,7 +14,7 @@ function Career() {
 
 
       </p>
-      <a class="button btn-theme-default mt-3" href="#"> Join Now </a>
+      <a class="button btn-theme-default mt-3" href="https://forms.gle/tx5c3x2FmGu6A1rQ7"> Join Now </a>
     </div>
     <div class="col container-body">
       <img

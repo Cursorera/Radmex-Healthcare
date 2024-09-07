@@ -14,98 +14,98 @@ function Pricing() {
           <!-- Pricing Table -->
           <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box overflow-hidden position-relative">
-              <div class="title">Basic</div>
-              <div class="price">
-                $199 <span class="duration">/ monthly</span>
-              </div>
-              <div class="table-content">
-                <ul>
-                  <li>
-                    <span><i class="bi bi-check2"></i>1 job posting</span>
-                  </li>
-                  <li>
-                    <span><i class="bi bi-check2"></i>0 featured job</span>
-                  </li>
-                  <li>
-                    <span
-                      ><i class="bi bi-check2"></i>Job displayed for 20
-                      days</span
-                    >
-                  </li>
-                  <li>
-                    <span
-                      ><i class="bi bi-check2"></i>Premium Support 24/7
-                    </span>
-                  </li>
-                </ul>
-              </div>
+              <div class="title">FERIMEX-LP Tablets</div>
+              <img src="Images/product-image/Ferimex-Lp.jpeg" alt="New Product 1" class="w-100 h-50" />
               <div class="table-footer">
                 <a href="#" class="button btn-theme-1">View Profile</a>
               </div>
             </div>
           </div>
-          <!-- Pricing Table -->
-          <div class="pricing-table position-relative tagged col-lg-4 col-md-6 col-sm-12">
-            <div class="inner-box overflow-hidden position-relative">
-              <span class="tag bg-primary-300">Recommended</span>
-              <div class="title">Standard</div>
-              <div class="price">
-                $499 <span class="duration">/ monthly</span>
-              </div>
-              <div class="table-content">
-                <ul>
-                  <li>
-                    <span><i class="bi bi-check2"></i>1 job posting</span>
-                  </li>
-                  <li>
-                    <span><i class="bi bi-check2"></i>0 featured job</span>
-                  </li>
-                  <li>
-                    <span
-                      ><i class="bi bi-check2"></i>Job displayed for 20
-                      days</span
-                    >
-                  </li>
-                  <li>
-                    <span
-                      ><i class="bi bi-check2"></i>Premium Support 24/7
-                    </span>
-                  </li>
-                </ul>
-              </div>
-              <div class="table-footer">
-                <a href="#" class="button btn-theme-1">View Profile</a>
-              </div>
-            </div>
-          </div>
-          <!-- Pricing Table -->
+          <!-- Pricing Table 2 -->
           <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box overflow-hidden position-relative">
-              <div class="title">Extended</div>
-              <div class="price">
-                $799 <span class="duration">/ monthly</span>
+              <div class="title">Mextrol-160</div>
+              <img src="Images/product-image/Mextrol-160.jpeg" alt="New Product 1" class="w-100 h-50" />
+              <div class="table-footer">
+                <a href="#" class="button btn-theme-1">View Profile</a>
               </div>
-              <div class="table-content">
-                <ul>
-                  <li>
-                    <span><i class="bi bi-check2"></i>1 job posting</span>
-                  </li>
-                  <li>
-                    <span><i class="bi bi-check2"></i>0 featured job</span>
-                  </li>
-                  <li>
-                    <span
-                      ><i class="bi bi-check2"></i>Job displayed for 20
-                      days</span
-                    >
-                  </li>
-                  <li>
-                    <span
-                      ><i class="bi bi-check2"></i>Premium Support 24/7
-                    </span>
-                  </li>
-                </ul>
+            </div>
+          </div>
+          <!-- Pricing Tablem 3 -->
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
+              <div class="title">Mycorex-S360</div>
+              <img src="Images/product-image/Mycorex-S360.jpeg" alt="New Product 1" class="w-100 h-50" />
+              <div class="table-footer">
+                <a href="#" class="button btn-theme-1">View Profile</a>
               </div>
+            </div>
+          </div>
+          <!-- Pricing Table 4-->
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
+              <div class="title">PHOSLESS-667</div>
+              <img src="Images/product-image/Phosless-667.jpeg" alt="New Product 1" class="w-100" />
+              <div class="table-footer">
+                <a href="#" class="button btn-theme-1">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <!-- Pricing Table 5 -->
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
+              <div class="title">RACIDOSIS</div>
+              <img src="Images/product-image/Racidosis.jpeg" alt="New Product 1" class="w-100" />
+              <div class="table-footer">
+                <a href="#" class="button btn-theme-1">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <!-- Pricing Table 6 -->
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
+              <div class="title">RACITROL</div>
+              <img src="Images/product-image/Racitrol.jpeg" alt="New Product 1" class="w-100" />
+              <div class="table-footer">
+                <a href="#" class="button btn-theme-1">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <!-- Pricing Table 7 -->
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
+              <div class="title">RENOMEX</div>
+              <img src="Images/product-image/Renomex.jpeg" alt="New Product 1" class="w-100" />
+              <div class="table-footer">
+                <a href="#" class="button btn-theme-1">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <!-- Pricing Table 8 -->
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
+              <div class="title">TACREX-1MG</div>
+              <img src="Images/product-image/Tacrex-1mg.jpeg" alt="New Product 1" class="w-100" />
+              <div class="table-footer">
+                <a href="#" class="button btn-theme-1">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <!-- Pricing Table 9 -->
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
+              <div class="title">TACREX</div>
+              <img src="Images/product-image/Tacrex.jpeg" alt="New Product 1" class="w-100" />
+              <div class="table-footer">
+                <a href="#" class="button btn-theme-1">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <!-- Pricing Table 10 -->
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
+              <div class="title">VELAMEX</div>
+              <img src="Images/product-image/Velamex.jpeg" alt="New Product 1" class="w-100" />
               <div class="table-footer">
                 <a href="#" class="button btn-theme-1">View Profile</a>
               </div>
