@@ -123,7 +123,7 @@ button,
 }
 .btn-theme-default:hover {
   color: var(--primary-100);
-  background-color: #562ba1;
+  background-color: #0280ba;
 }
 .btn-theme-1 {
   color: var(--primary-600);
@@ -338,15 +338,34 @@ Hero Section
   padding-top: 40px;
 }
 .mockup-img img {
-  max-height: 560px;
+  max-height: 360px;
 }
 @media (min-width: 786px) {
   #Herosection .text-wrapper {
     padding-top: 64px;
   }
   .mockup-img img {
-    max-height: 640px;
+    max-height: 340px;
+    align-self: center;
+    border-radius: 20px;
   }
+}
+
+/* Bounce animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  animation: bounce 2s infinite;
 }
 @media (min-width: 992px) {
   #Herosection .text-wrapper {

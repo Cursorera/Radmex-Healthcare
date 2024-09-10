@@ -19,6 +19,11 @@ function Herosection() {
               <a class="button btn-theme-default" href="https://forms.gle/tx5c3x2FmGu6A1rQ7">Contact Us</a>
             </div>
           </div>
+          <div
+            class="mockup-img col-12 col-lg-5 overflow-hidden d-flex justify-content-center"
+          >
+            <img class="kidney-img bounce" src="./Images/Kidney-Image.webp" alt="" id="" />
+          </div>
         </div>
         
   `;
