@@ -607,3 +607,27 @@ ArrowToTop Section
   transition: all 0.5s ease;
   z-index: 20;
 }
+
+/*** 
+
+====================================================================
+About us Section
+====================================================================
+
+***/
+
+.about-us {
+  background-color: #f8f9fa;
+}
+
+.about-us h2 {
+  color: #0056b3;
+}
+
+.about-us ul {
+  padding-left: 0;
+}
+
+.about-us li h5 {
+  color: #6c757d;
+}

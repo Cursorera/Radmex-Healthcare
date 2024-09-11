@@ -15,7 +15,7 @@ function Navbar() {
   <div class="nav-right d-flex align-items-center">
     <ul class="navbar-nav d-none d-lg-flex">
       <li class="nav-item">
-        <a class="nav-link" href="#Herosection">About Us</a>
+        <a class="nav-link" href="#AboutUs">About Us</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#Metric">Products</a>
@@ -54,7 +54,7 @@ function Navbar() {
           <a class="nav-link" href="#Metric">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://forms.gle/tx5c3x2FmGu6A1rQ7">Contact Us</a>
+          <a class="nav-link" target="_blank" href="https://forms.gle/tx5c3x2FmGu6A1rQ7">Contact Us</a>
         </li>
       </ul>
     </div>

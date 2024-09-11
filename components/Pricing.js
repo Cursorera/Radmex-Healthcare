@@ -85,7 +85,7 @@ function Pricing() {
           <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box overflow-hidden position-relative">
               <div class="title">TACREX-1MG</div>
-              <img src="Images/product-image/Tacrex-1mg.jpeg" alt="New Product 1" class="w-100" />
+              <img src="Images/product-image/Tacrex1.png" alt="New Product 1" class="w-100" />
               <div class="table-footer">
                 <a href="#" class="button btn-theme-1">View Profile</a>
               </div>
