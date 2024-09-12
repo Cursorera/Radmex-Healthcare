@@ -26,8 +26,7 @@ function Footer() {
                 </li>
               </ul>
               <div class="copyrights mt-1">
-            <p class="call-us"> Call us - 011-41092728 /
-            9311172626</p>
+            <p class="call-us"> Call us - 011-41092728</p>
             </div> 
             </div>
             
