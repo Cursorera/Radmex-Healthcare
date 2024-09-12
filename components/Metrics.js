@@ -4,10 +4,10 @@ function Metrics() {
   Container.classList.add("container");
   Container.innerHTML = `
   <div class="text-body d-flex flex-column align-items-center">
-          <h2 class="text-center fw-bold">Pricing Packages</h2>
+          <h2 class="text-center fw-bold">Nephrological Range</h2>
           <p class="text-center">
-            Connect Landify with your favourite tools that you use daily and
-            keep things on track.
+          At Radmex Healthcare, we are dedicated to delivering comprehensive healthcare solutions that go beyond treatment. Our commitment to excellence in renal care and other specialized fields ensures that every patient receives personalized and cutting-edge care, enhancing their quality of life.
+
           </p>
         </div>
         <div class="row mt-5">

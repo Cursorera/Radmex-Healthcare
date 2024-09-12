@@ -25,8 +25,12 @@ function Footer() {
                   <a class="nav-link" target="_blank" href="https://forms.gle/tx5c3x2FmGu6A1rQ7">Contact Us</a>
                 </li>
               </ul>
+              <div class="copyrights mt-1">
+            <p class="call-us"> Call us - 011-41092728 /
+            9311172626</p>
+            </div> 
             </div>
-       
+            
           </div>
 
         </div>
@@ -35,6 +39,4 @@ function Footer() {
 }
 Footer();
 
-{/* <div class="copyrights mt-4">
-<span class='text-decoration-underline'> © 2024 Radmex Healthcare</a>
-</div> */}
+// {}
