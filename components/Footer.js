@@ -22,7 +22,7 @@ function Footer() {
                   <a class="nav-link" href="#">News</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" target="_blank" href="https://forms.gle/tx5c3x2FmGu6A1rQ7">Contacts</a>
+                  <a class="nav-link" target="_blank" href="https://forms.gle/tx5c3x2FmGu6A1rQ7">Contact Us</a>
                 </li>
               </ul>
             </div>
