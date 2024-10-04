@@ -50,6 +50,9 @@ function Navbar() {
     </div>
     <div class="offcanvas-body">
       <ul class="navbar-nav">
+      <li class="nav-item">
+      <a class="nav-link" href="https://search.app/dNYDHgUpaFRL9hwq9" target="_blank">1-Mg 💊</a>
+    </li>
         <li class="nav-item">
           <a class="nav-link" href="#Herosection">About Us</a>
         </li>
