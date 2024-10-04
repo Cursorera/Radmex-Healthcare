@@ -14,6 +14,9 @@ function Navbar() {
   </div>
   <div class="nav-right d-flex align-items-center">
     <ul class="navbar-nav d-none d-lg-flex">
+    <li class="nav-item">
+      <a class="nav-link" href="https://search.app/dNYDHgUpaFRL9hwq9" target="_blank">1-Mg 💊</a>
+    </li>
       <li class="nav-item">
         <a class="nav-link" href="#AboutUs">About Us</a>
       </li>
