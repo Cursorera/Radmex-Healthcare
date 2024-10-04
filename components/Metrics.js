@@ -7,7 +7,6 @@ function Metrics() {
           <h2 class="text-center fw-bold">Nephrological Range</h2>
           <p class="text-center">
           At Radmex Healthcare, we are dedicated to delivering comprehensive healthcare solutions that go beyond treatment. Our commitment to excellence in renal care and other specialized fields ensures that every patient receives personalized and cutting-edge care, enhancing their quality of life.
-
           </p>
         </div>
         <div class="row mt-5">
@@ -76,6 +75,33 @@ function Metrics() {
             <div class="inner-box overflow-hidden position-relative">
               <div class="title">VELAMEX</div>
               <img src="Images/product-image/Velamex.png" alt="New Product 1" class="w-100 h-50" />
+              <div class="table-footer">
+                <a target="_blank" href="https://forms.gle/tx5c3x2FmGu6A1rQ7" class="button btn-theme-1">Know More</a>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
+              <div class="title">MEXTROL</div>
+              <img src="Images/product-image/Mextrol.png" alt="New Product 1" class="w-100 h-50" />
+              <div class="table-footer">
+                <a target="_blank" href="https://forms.gle/tx5c3x2FmGu6A1rQ7" class="button btn-theme-1">Know More</a>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
+              <div class="title">MYCOREX-S360</div>
+              <img src="Images/product-image/Mycorex-s360.png" alt="New Product 1" class="w-100 h-50" />
+              <div class="table-footer">
+                <a target="_blank" href="https://forms.gle/tx5c3x2FmGu6A1rQ7" class="button btn-theme-1">Know More</a>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box overflow-hidden position-relative">
+              <div class="title">PROPREX-FORTE</div>
+              <img src="Images/product-image/pro-prex-forte.png" alt="New Product 1" class="w-100 h-50" />
               <div class="table-footer">
                 <a target="_blank" href="https://forms.gle/tx5c3x2FmGu6A1rQ7" class="button btn-theme-1">Know More</a>
               </div>

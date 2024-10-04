@@ -22,7 +22,7 @@ function Products() {
     <div class="text">
       <div class="title fw-bold text-center">Ferimex - LP</div>
       <div class="description text-center">
-        Ferric Pyrophosphate - 30mg, Vitamin C- 50mg, Vitaming B-12 - 0.75mcg,
+        Ferric Pyrophosphate - 30mg, Vitamin C- 50mg, Vitamin B-12 - 0.75mcg,
         Folic Acid - 200mcg
       </div>
     </div>
@@ -90,7 +90,7 @@ function Products() {
   <div class="text">
     <div class="title fw-bold text-center">Mextrol</div>
     <div class="description text-center">
-      Magestrol Acetate 40/80/160mg Tablet
+      Magestrol Acetate 40/160mg Tablet
     </div>
   </div>
 </div>
@@ -101,7 +101,7 @@ function Products() {
 <div class="text">
   <div class="title fw-bold text-center">Ketrena - DS</div>
   <div class="description text-center">
-    Alfa Ketoanalogue 1260mg Tablet
+    Alfa Ketoanalogue Double Strength Tablet
   </div>
 </div>
 </div>
