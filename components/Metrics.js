@@ -107,6 +107,24 @@ function Metrics() {
               </div>
             </div>
           </div>
+          <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+          <div class="inner-box overflow-hidden position-relative">
+            <div class="title">FERIMEX-LP</div>
+            <img src="Images/product-image/Ferimex.png" alt="New Product 1" class="w-100 h-50" />
+            <div class="table-footer">
+              <a target="_blank" href="https://forms.gle/tx5c3x2FmGu6A1rQ7" class="button btn-theme-1">Know More</a>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-table position-relative col-lg-4 col-md-6 col-sm-12">
+        <div class="inner-box overflow-hidden position-relative">
+          <div class="title">VALCYCLE</div>
+          <img src="Images/product-image/Valcycle.png" alt="New Product 1" class="w-100 h-50" />
+          <div class="table-footer">
+            <a target="_blank" href="https://forms.gle/tx5c3x2FmGu6A1rQ7" class="button btn-theme-1">Know More</a>
+          </div>
+        </div>
+      </div>
         </div>
   `;
   Metrics.appendChild(Container);

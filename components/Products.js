@@ -110,7 +110,7 @@ function Products() {
   <img src="./Images/Base-feature-icon-5.svg" alt="" srcset="" />
 </div>
 <div class="text">
-  <div class="title fw-bold text-center">ProPreX - 45</div>
+  <div class="title fw-bold text-center">ProPreX-Forte</div>
   <div class="description text-center">
     Pre & Pro Biotec-45 Billion CFU Capsule
   </div>
