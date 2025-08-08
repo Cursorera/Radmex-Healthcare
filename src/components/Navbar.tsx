@@ -127,9 +127,9 @@ const Navbar = () => {
               <div className="pt-2">
                 <Button 
                   className="w-full medical-gradient text-white rounded-full"
-                  onClick={() => scrollToSection('#appointment')}
+                  onClick={() => scrollToSection('#contact')}
                 >
-                  Book Appointment
+                  Know More
                 </Button>
               </div>
             </div>
