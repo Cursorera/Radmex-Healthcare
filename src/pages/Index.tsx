@@ -10,6 +10,7 @@ import ContactSection from '../components/ContactSection';
 import CTASection from '../components/CTASection';
 import Footer from '../components/Footer';
 import EventGallery from '@/components/EventGallery';
+import NetworkSection from '@/components/NetworkSection';
 
 const Index = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -25,11 +26,12 @@ const Index = () => {
         <HeroSection />
         <ServicesSection />
         <StatsSection />
-        <TestimonialsSection />
+        {/* <TestimonialsSection /> */}
         <GallerySection />
         <ContactSection />
         <EventGallery />
-        <CTASection />
+        <NetworkSection />
+        {/* <CTASection /> */}
       </main>
       <Footer />
     </div>
