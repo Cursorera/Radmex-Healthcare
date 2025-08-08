@@ -6,7 +6,7 @@ import { scrollToSection } from '@/lib/utils';
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center bg-gradient-to-br from-professional-white via-blue-50/30 to-green-50/20 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center bg-gradient-to-br from-professional-white via-blue-50/30 to-green-50/20 overflow-hidden pt-24 md:pt-0">
       {/* Floating Badge */}
       {/* <div className="absolute top-24 right-8 z-10 animate-float">
         <Badge className="bg-trust-green text-white px-4 py-2 text-sm font-semibold animate-pulse-subtle">
@@ -75,6 +75,14 @@ const HeroSection = () => {
           <div className="absolute -top-4 -right-4 w-24 h-24 bg-trust-green/20 rounded-full animate-pulse-subtle"></div>
           <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-physician-blue/20 rounded-full animate-float"></div>
         </div>
+      </div>
+
+      {/* Gradient overlay */}
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 pointer-events-none opacity-60"
+      >
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(59,130,246,0.25),transparent_60%),radial-gradient(ellipse_at_bottom_right,rgba(16,185,129,0.25),transparent_60%)]" />
       </div>
 
       {/* Background Pattern */}

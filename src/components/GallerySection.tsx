@@ -100,6 +100,55 @@ const GallerySection = () => {
       category: "Immuno Suppressants Range",
       image: "/Mycorex-500.png"
     },
+      {
+      id: 17,
+      title: "Vitinox HP",
+      category: "Immuno Suppressants Range",
+      image: "/Vitinox-HP.jpeg"
+    },
+          {
+      id: 18,
+      title: "Tacrex - 0.25",
+      category: "Immuno Suppressants Range",
+      image: "/Tacrex-0.25.jpeg"
+    },
+              {
+      id: 19,
+      title: "Ketrena DS",
+      category: "Immuno Suppressants Range",
+      image: "/Ketrenca-DS.jpeg"
+    },
+    {
+      id: 20,
+      title: "Racidosis EC 500",
+      category: "Immuno Suppressants Range",
+      image: "/Racidosis-EC500.jpeg"
+    },
+    {
+      id: 21,
+      title: "Mycorex S 180",
+      category: "Immuno Suppressants Range",
+      image: "/Mycorex-S180.jpeg"
+    },
+    {
+      id: 22,
+      title: "Vitinox",
+      category: "Immuno Suppressants Range",
+      image: "/Vitinox.jpeg"
+    },
+    {
+      id: 23,
+      title: "Velamex-400",
+      category: "Immuno Suppressants Range",
+      image: "/Velamex-400.jpeg"
+    },
+    {
+      id: 23,
+      title: "Valcycle-450",
+      category: "Immuno Suppressants Range",
+      image: "/Valcycle-450.jpeg"
+    },
+    
   ];
 
   const categories = ["All", "Injectable Range", "Nephrological Range", "Immuno Suppressants Range"];
