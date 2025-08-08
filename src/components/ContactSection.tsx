@@ -5,6 +5,7 @@ import { Textarea } from './ui/textarea';
 import { Label } from './ui/label';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { sendContactEmail } from '@/lib/email';
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -15,10 +16,23 @@ const ContactSection = () => {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [statusMessage, setStatusMessage] = useState<string | null>(null);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
-    console.log('Form submitted:', formData);
+    setIsSubmitting(true);
+    setStatusMessage(null);
+    try {
+      await sendContactEmail(formData);
+      setStatusMessage('Message sent successfully. We will get back to you soon.');
+      setFormData({ name: '', email: '', phone: '', service: '', message: '' });
+    } catch (error) {
+      console.error(error);
+      setStatusMessage('Failed to send message. Please try again later.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -169,9 +183,12 @@ const ContactSection = () => {
                   />
                 </div>
 
-                <Button type="submit" className="w-full bg-primary hover:bg-primary/90">
-                  Send Message
+                <Button type="submit" disabled={isSubmitting} className="w-full bg-primary hover:bg-primary/90 disabled:opacity-70">
+                  {isSubmitting ? 'Sending...' : 'Send Message'}
                 </Button>
+                {statusMessage && (
+                  <p className="text-sm text-center text-muted-foreground">{statusMessage}</p>
+                )}
               </form>
             </CardContent>
           </Card>

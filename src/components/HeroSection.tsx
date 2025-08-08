@@ -14,18 +14,17 @@ const HeroSection = () => {
         </Badge>
       </div> */}
 
-      <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="container bg-gradient-to-br from-professional-white to-blue-50/30 mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div className="space-y-8">
           <div className="space-y-6">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-montserrat font-800 text-professional-gray leading-tight">
-              Revolutionizing Renal Care with
-              <span className="text-physician-blue"> Cutting-Edge Treatments</span>
+             Radmex Healthcare: 
+              <span className="text-physician-blue">Your Nephrology Manufacturing Partner</span>
             </h1>
 
             <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-              RADMEX HEALTHCARE PVT. LTD. is a leading healthcare company specializing in the Nephrology segment, operating at a pan-India level. We are dedicated to providing world-class quality products and exceptional services to our customers,
-              supported by a team of professionals and a strong distribution network.
+            Powering renal and kidney care with specialized formulations and consistent supply. At Radmex Healthcare, our nephrology expertise and nationwide distribution network ensure timely access to trusted therapies across India.
             </p>
           </div>
 
@@ -66,7 +65,7 @@ const HeroSection = () => {
             <div className="aspect-[4/3] w-full">
               <img
                 src="/kidney.jpg"
-                alt="Renal care - kidney illustration"
+                alt="Doctor’s gloved hands holding a kidney model—Radmex Healthcare nephrology and kidney-care medicines"
                 className="w-full h-full object-cover"
               />
             </div>

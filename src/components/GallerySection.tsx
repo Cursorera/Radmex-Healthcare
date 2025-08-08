@@ -110,12 +110,12 @@ const GallerySection = () => {
     : galleryImages.filter(img => img.category === activeCategory);
 
   return (
-    <section className="py-20 bg-secondary/5">
+    <section className="py-20 bg-secondary/5" id="all-products">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-primary mb-4">Our Product Range</h2>
+          <h2 className="text-4xl font-bold text-primary mb-4">Renal Medicines, Transplant Support & Nutrition</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Take a virtual tour of our state-of-the-art medical facilities designed with your comfort and care in mind.
+            Discover our specialized products for kidney care: dialysis essentials, post-transplant management, electrolytes & supplements, and renal medical nutrition—trusted by providers across India.
           </p>
         </div>
 
