@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
+    { icon: Facebook, href: 'https://www.facebook.com/people/Radmex-Healthcare/61565251318668/?_rdr', label: 'Facebook' },
     { icon: Twitter, href: '#', label: 'Twitter' },
     { icon: Instagram, href: 'https://www.instagram.com/radmexhealthcare', label: 'Instagram' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' }
