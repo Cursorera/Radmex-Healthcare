@@ -35,8 +35,7 @@ const Footer = () => {
                 className="h-20 w-auto"
               />
               <p className="text-black leading-relaxed">
-                Your trusted healthcare partner, providing<br></br> premium medical services 
-                with cutting-edge<br></br> technology and compassionate care.
+              Your trusted partner in renal <br></br> therapeutics—precision manufacturing, <br></br>reliable supply.
               </p>
             </div>
 
@@ -97,9 +96,9 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-black text-sm text-center md:text-left">
-              © {currentYear} Radmex Healthcare. All rights reserved. | 
-              <a href="#" className="hover:text-trust-green transition-colors ml-1">Privacy Policy</a> | 
-              <a href="#" className="hover:text-trust-green transition-colors ml-1">Terms of Service</a>
+              © {currentYear} Radmex Healthcare. All rights reserved.  
+              {/* <a href="#" className="hover:text-trust-green transition-colors ml-1">Privacy Policy</a> | 
+              <a href="#" className="hover:text-trust-green transition-colors ml-1">Terms of Service</a> */}
             </div>
             
             <div className="text-black text-sm text-center md:text-right">
