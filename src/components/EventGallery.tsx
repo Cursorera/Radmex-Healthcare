@@ -1,7 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const EventGallery = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [offsetPx, setOffsetPx] = useState(0);
+  const offsetRef = useRef(0);
+  const trackRef = useRef<HTMLDivElement | null>(null);
+  const rafRef = useRef<number | null>(null);
+  const lastTimeRef = useRef<number | null>(null);
 
   const events = [
     {
@@ -42,27 +46,60 @@ const EventGallery = () => {
     },
   ];
 
-  const cardsPerView = 4;
-  
-  // Infinite auto-scroll functionality
+  // Smooth continuous auto-scroll using requestAnimationFrame
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => {
-        // Create infinite loop effect
-        const nextIndex = prevIndex + 1;
-        return nextIndex;
-      });
-    }, 50000); // Change slide every 2 seconds
+    const speedPxPerSecond = 40; // adjust for desired speed
 
-    return () => clearInterval(interval);
+    const step = (timestamp: number) => {
+      if (lastTimeRef.current === null) {
+        lastTimeRef.current = timestamp;
+      }
+      const deltaMs = timestamp - (lastTimeRef.current ?? timestamp);
+      lastTimeRef.current = timestamp;
+
+      const trackEl = trackRef.current;
+      if (trackEl) {
+        const halfWidth = trackEl.scrollWidth / 2; // because we duplicate items
+        let next = offsetRef.current + (speedPxPerSecond * deltaMs) / 1000;
+        if (next >= halfWidth) {
+          next = next - halfWidth; // seamless loop
+        }
+        offsetRef.current = next;
+        setOffsetPx(next);
+      }
+      rafRef.current = requestAnimationFrame(step);
+    };
+
+    rafRef.current = requestAnimationFrame(step);
+    return () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+      rafRef.current = null;
+      lastTimeRef.current = null;
+    };
   }, []);
 
-  const nextSlide = () => {
-    setCurrentIndex(prevIndex => prevIndex + 1);
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex(prevIndex => prevIndex - 1);
+  const shiftManually = (direction: 1 | -1) => {
+    const trackEl = trackRef.current;
+    if (!trackEl) return;
+    // Attempt to compute one-card step including gap using positions of first two children
+    const first = trackEl.children[0] as HTMLElement | undefined;
+    const second = trackEl.children[1] as HTMLElement | undefined;
+    let step = 300; // fallback
+    if (first && second) {
+      const firstRect = first.getBoundingClientRect();
+      const secondRect = second.getBoundingClientRect();
+      step = Math.abs(secondRect.left - firstRect.left);
+    }
+    const halfWidth = trackEl.scrollWidth / 2;
+    let next = offsetRef.current + direction * step;
+    if (next < 0) {
+      next = halfWidth + next; // wrap backwards
+    }
+    if (next >= halfWidth) {
+      next = next - halfWidth;
+    }
+    offsetRef.current = next;
+    setOffsetPx(next);
   };
 
   return (
@@ -78,7 +115,7 @@ const EventGallery = () => {
         <div className="relative">
           {/* Navigation Buttons */}
           <button
-            onClick={prevSlide}
+            onClick={() => shiftManually(-1)}
             className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 bg-primary text-primary-foreground rounded-full p-2 shadow-lg hover:bg-primary/90 transition-all duration-200 hover:scale-110"
             aria-label="Previous images"
           >
@@ -88,7 +125,7 @@ const EventGallery = () => {
           </button>
 
           <button
-            onClick={nextSlide}
+            onClick={() => shiftManually(1)}
             className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 bg-primary text-primary-foreground rounded-full p-2 shadow-lg hover:bg-primary/90 transition-all duration-200 hover:scale-110"
             aria-label="Next images"
           >
@@ -99,22 +136,20 @@ const EventGallery = () => {
 
           {/* Carousel Container */}
           <div className="overflow-hidden">
-            <div 
-              className="flex gap-6 transition-transform duration-1000 ease-linear"
-              style={{ 
-                transform: `translateX(-${(currentIndex % events.length) * (100 / cardsPerView + 1.5)}%)`,
-                width: `${events.length * 2 * (100 / cardsPerView + 1.5)}%`
-              }}
+            <div
+              ref={trackRef}
+              className="flex gap-6 will-change-transform"
+              style={{ transform: `translateX(-${offsetPx}px)` }}
             >
               {/* Duplicate events for infinite scroll effect */}
               {[...events, ...events].map((event, index) => (
                 <div
-                  key={`${event.id}-${Math.floor(index / events.length)}`}
-                  className="flex-shrink-0 w-72"
+                  key={`${event.id}-${index < events.length ? 'a' : 'b'}`}
+                  className="flex-shrink-0 w-80"
                 >
                   <div className="bg-card rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group">
                     {/* Event Image */}
-                    <div className="relative h-64 overflow-hidden">
+                    <div className="relative h-72 overflow-hidden">
                       <img
                         src={event.image}
                         alt={`Event ${event.id}`}

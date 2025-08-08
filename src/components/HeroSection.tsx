@@ -62,23 +62,13 @@ const HeroSection = () => {
 
         {/* Right Content - Hero Image */}
         <div className="relative">
-          <div className="relative z-10 bg-white rounded-2xl shadow-2xl p-8 medical-shadow">
-            <div className="aspect-[4/3] bg-gradient-to-br from-blue-100 to-green-100 rounded-xl flex items-center justify-center">
-              <div className="text-center space-y-4">
-                <div className="w-24 h-24 bg-physician-blue rounded-full flex items-center justify-center mx-auto">
-                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
-                    <div className="w-6 h-6 bg-physician-blue rounded-full"></div>
-                  </div>
-                </div>
-                <div className="space-y-2">
-                  <h3 className="font-montserrat font-700 text-xl text-professional-gray">
-                    Doctor-Patient Care
-                  </h3>
-                  <p className="text-gray-600 text-sm max-w-xs mx-auto">
-                    Authentic healthcare relationships built on trust and expertise
-                  </p>
-                </div>
-              </div>
+          <div className="relative z-10 bg-white rounded-2xl shadow-2xl p-0 medical-shadow overflow-hidden">
+            <div className="aspect-[4/3] w-full">
+              <img
+                src="/kidney.jpg"
+                alt="Renal care - kidney illustration"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 
