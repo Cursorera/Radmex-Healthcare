@@ -48,13 +48,13 @@ const GallerySection = () => {
     },
     {
       id: 8,
-      title: "KETRENA-DS",
+      title: "KETRENA",
       category: "Nephrological Range",
       image: "/Ketrena.png"
     },
     {
       id: 9,
-      title: "MEXTROL",
+      title: "MEXTROL - 160",
       category: "Nephrological Range",
       image: "/Mextrol-160.png"
     },
@@ -84,7 +84,7 @@ const GallerySection = () => {
     },
     {
       id: 14,
-      title: "Tacrex",
+      title: "Tacrex 0.5",
       category: "Immuno Suppressants Range",
       image: "/Tacrex0.5.png"
     },
@@ -143,10 +143,16 @@ const GallerySection = () => {
       image: "/Velamex-400.jpeg"
     },
     {
-      id: 23,
+      id: 24,
       title: "Valcycle-450",
       category: "Immuno Suppressants Range",
       image: "/Valcycle-450.jpeg"
+    },
+      {
+      id: 25,
+      title: "Tacrex-1",
+      category: "Immuno Suppressants Range",
+      image: "/Tacrex-1.jpeg"
     },
     
   ];
@@ -204,7 +210,7 @@ const GallerySection = () => {
                 <span className="inline-block px-3 py-1 bg-primary rounded-full text-xs font-medium mb-2">
                   {image.category}
                 </span>
-                <h3 className="text-lg font-semibold">{image.title}</h3>
+                <h3 className="text-lg font-medium text-white">{image.title}</h3>
                 {/* Specialties */}
                 {/* <div className="space-y-2">
                     <h5 className="font-semibold text-professional-gray text-sm">Key Specialties:</h5>
