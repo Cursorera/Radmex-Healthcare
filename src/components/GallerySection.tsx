@@ -120,7 +120,7 @@ const GallerySection = () => {
     },
     {
       id: 20,
-      title: "Racidosis EC 500",
+      title: "Racidosis EC 500 Coated",
       category: "Immuno Suppressants Range",
       image: "/Racidosis-EC500.jpeg"
     },
@@ -154,7 +154,18 @@ const GallerySection = () => {
       category: "Immuno Suppressants Range",
       image: "/Tacrex-1.jpeg"
     },
-    
+      {
+      id: 26,
+      title: "Racidosis-EC-1000",
+      category: "Immuno Suppressants Range",
+      image: "/Racidosis-100.jpeg"
+    },
+    {
+      id: 27,
+      title: "Mextrol-40",
+      category: "Immuno Suppressants Range",
+      image: "/Mextrol-40.jpeg"
+    },
   ];
 
   const categories = ["All", "Injectable Range", "Nephrological Range", "Immuno Suppressants Range"];
