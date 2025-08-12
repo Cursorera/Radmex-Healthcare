@@ -39,7 +39,7 @@ const ServicesSection = () => {
       bgColor: 'bg-blue-50'
     },
     {
-      image: '/Mextrol-160.png',
+      image: '/Mextrol-160.jpeg',
       title: 'Mextrol',
       description: 'Magestrol Acetate 40/160mg Tablet',
       specialties: ['Joint Replacement', 'Sports Medicine', 'Spine Care'],

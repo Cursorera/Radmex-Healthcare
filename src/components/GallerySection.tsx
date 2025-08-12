@@ -56,7 +56,7 @@ const GallerySection = () => {
       id: 9,
       title: "MEXTROL - 160",
       category: "Nephrological Range",
-      image: "/Mextrol-160.png"
+      image: "/Mextrol-160.jpeg"
     },
     {
       id: 10,
