@@ -13,12 +13,12 @@ const GallerySection = () => {
     {
       id: 2,
       title: "Ferimex LP",
-      category: "Nephrological Range",
+      category: "Nutritional Range",
       image: "/Ferimex.png",
     },
     {
       id: 3,
-      title: "Renomex N",
+      title: "Renomex",
       category: "Nephrological Range",
       image: "/Renomex.png",
     },
@@ -72,103 +72,97 @@ const GallerySection = () => {
     },
     {
       id: 12,
-      title: "VITINOX HP",
-      category: "Nephrological Range",
+      title: "Vitinox HP – Rich Vanilla",
+      category: "Nutritional Range",
       image: "/Vetinox-Hp.jpeg"
     },
     {
       id: 13,
-      title: "VALCYCLE 450",
-      category: "Immuno Suppressants Range",
-      image: "/Valcycle.png"
-    },
-    {
-      id: 14,
       title: "Tacrex 0.5",
       category: "Immuno Suppressants Range",
       image: "/Tacrex0.5.png"
     },
     {
-      id: 15,
+      id: 14,
       title: "Mycorex - 360",
       category: "Immuno Suppressants Range",
       image: "/Mycorex-s360.png"
     },
     {
-      id: 16,
+      id: 15,
       title: "Mycorex - 500",
       category: "Immuno Suppressants Range",
       image: "/Mycorex-500.png"
     },
-      {
-      id: 17,
+    {
+      id: 16,
       title: "Vitinox HP",
-      category: "Immuno Suppressants Range",
+      category: "Nutritional Range",
       image: "/Vitinox-HP.jpeg"
     },
-          {
-      id: 18,
+    {
+      id: 17,
       title: "Tacrex - 0.25",
       category: "Immuno Suppressants Range",
       image: "/Tacrex-0.25.jpeg"
     },
-              {
-      id: 19,
-      title: "Ketrena DS",
-      category: "Immuno Suppressants Range",
+    {
+      id: 18,
+      title: "Ketrena DS (Alpha-Ketoanalogue)",
+      category: "Nephrological  Range",
       image: "/Ketrenca-DS.jpeg"
     },
     {
-      id: 20,
-      title: "Racidosis EC 500 Coated",
-      category: "Immuno Suppressants Range",
+      id: 19,
+      title: "Racidosis 500(Sodium Bicarbonate)",
+      category: "Nephrological Range",
       image: "/Racidosis-EC500.jpeg"
     },
     {
-      id: 21,
+      id: 20,
       title: "Mycorex S 180",
       category: "Immuno Suppressants Range",
       image: "/Mycorex-S180.jpeg"
     },
     {
-      id: 22,
-      title: "Vitinox",
-      category: "Immuno Suppressants Range",
+      id: 21,
+      title: "Vitinox Q10 – Jar",
+      category: "Nutritional Range",
       image: "/Vitinox.jpeg"
     },
     {
-      id: 23,
+      id: 22,
       title: "Velamex-400",
-      category: "Immuno Suppressants Range",
+      category: "Nephrological Range",
       image: "/Velamex-400.jpeg"
     },
     {
-      id: 24,
-      title: "Valcycle-450",
+      id: 23,
+      title: "Valcycle (Valganciclovir)",
       category: "Immuno Suppressants Range",
       image: "/Valcycle-450.jpeg"
     },
-      {
-      id: 25,
+    {
+      id: 24,
       title: "Tacrex-1",
       category: "Immuno Suppressants Range",
       image: "/Tacrex-1.jpeg"
     },
-      {
-      id: 26,
+    {
+      id: 25,
       title: "Racidosis-EC-1000",
       category: "Immuno Suppressants Range",
       image: "/Racidosis-100.jpeg"
     },
     {
-      id: 27,
+      id: 26,
       title: "Mextrol-40",
-      category: "Immuno Suppressants Range",
+      category: "Nephrological Range",
       image: "/Mextrol-40.jpeg"
     },
   ];
 
-  const categories = ["All", "Injectable Range", "Nephrological Range", "Immuno Suppressants Range"];
+  const categories = ["All", "Injectable Range", "Nephrological Range", "Immuno Suppressants Range", "Nutritional Range"];
   const [activeCategory, setActiveCategory] = useState("All");
 
   const filteredImages = activeCategory === "All"

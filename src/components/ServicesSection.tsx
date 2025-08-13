@@ -16,7 +16,7 @@ const ServicesSection = () => {
     },
     {
       image: '/Renomex.png',
-      title: 'Renomex LP',
+      title: 'Renomex',
       description: 'N-Acetylecystine - 150mg & Taurine - 500mg Tablet',
       specialties: ['Brain Surgery', 'Stroke Care', 'Memory Disorders'],
       color: 'text-physician-blue',
@@ -32,8 +32,8 @@ const ServicesSection = () => {
     },
     {
       image: '/pro-prex-forte.png',
-      title: 'ProPreX-Forte',
-      description: 'Pre & Pro Biotec-45 Billion CFU Capsule',
+      title: 'Proprex-Forte',
+      description: 'Proprex Forte — Pre-Probiotic 45 Billion CFU',
       specialties: ['Brain Surgery', 'Stroke Care', 'Memory Disorders'],
       color: 'text-physician-blue',
       bgColor: 'bg-blue-50'

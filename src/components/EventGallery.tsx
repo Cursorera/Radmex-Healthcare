@@ -44,6 +44,98 @@ const EventGallery = () => {
       id: 9,
       image: "/events-1.jpeg"
     },
+    {
+      id: 10,
+      image: "/1.JPG"
+    },
+    {
+      id: 11,
+      image: "/2.JPG"
+    },
+    {
+      id: 12,
+      image: "/3.JPG"
+    },
+    {
+      id: 13,
+      image: "/4.JPG"
+    },
+    {
+      id: 14,
+      image: "/5.JPG"
+    },
+    {
+      id: 15,
+      image: "/7.JPG"
+    },
+    {
+      id: 16,
+      image: "/10.JPG"
+    },
+    {
+      id: 17,
+      image: "/11.JPG"
+    },
+    {
+      id: 18,
+      image: "/13.JPG"
+    },
+    {
+      id: 19,
+      image: "/14.JPG"
+    },
+    {
+      id: 20,
+      image: "/15.JPG"
+    },
+    {
+      id: 21,
+      image: "/16.JPG"
+    },
+    {
+      id: 22,
+      image: "/17.JPG"
+    },
+    {
+      id: 23,
+      image: "/18.JPG"
+    },
+    {
+      id: 24,
+      image: "/19.JPG"
+    },
+    {
+      id: 25,
+      image: "/21.jpg"
+    },
+    {
+      id: 26,
+      image: "/22.jpg"
+    },
+    {
+      id: 27,
+      image: "/25.jpg"
+    },
+    {
+      id: 28,
+      image: "/26.jpg"
+    },
+    {
+      id: 29,
+      image: "/27.jpg"
+    },
+    {
+      id: 30,
+      image: "/28.jpg"
+    },
+    {
+      id: 31,
+      image: "/29.jpg"
+    },
+    {
+      id: 32,
+      image: "/30.jpg"
+    }
   ];
 
   // Smooth continuous auto-scroll using requestAnimationFrame

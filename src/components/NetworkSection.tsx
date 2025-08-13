@@ -4,37 +4,38 @@ import { Card, CardContent } from "./ui/card";
 import { Building2, Hospital, MapPin } from "lucide-react";
 
 const hospitals = [
-  { name: "Fortis Hospitals", location: "All branches including Gurugram, Delhi, Shalimar Bagh, and Faridabad", icon: Hospital },
-  { name: "AIIMS", location: "All India Institute of Medical Sciences", icon: Hospital },
-  { name: "Medanta – The Medicity", location: "Gurugram", icon: Hospital },
-  { name: "Narayana Health", location: "Gurugram", icon: Hospital },
-  { name: "National Heart Institute", location: "Delhi", icon: Hospital },
-  { name: "SSB Hospital", location: "Faridabad", icon: Hospital },
-  { name: "Yatharth Super Speciality Hospital", location: "Delhi NCR", icon: Hospital },
-  { name: "Aakash Healthcare", location: "Delhi NCR", icon: Hospital },
-  { name: "Neo Hospital", location: "Noida", icon: Hospital },
-  { name: "Max Group of Hospitals", location: "Noida and other locations", icon: Hospital },
-  { name: "Holy Family Hospital", location: "Delhi", icon: Hospital },
-  { name: "Jindal Hospital", location: "Haryana", icon: Hospital },
-  { name: "Dharamshila Narayana Hospital", location: "Delhi", icon: Hospital },
-  { name: "Artemis Hospital", location: "Gurugram", icon: Hospital },
-  { name: "Yupiter Hospital", location: "Delhi NCR", icon: Hospital },
-  { name: "First Consultant Clinic", location: "Delhi NCR", icon: Building2 },
-  { name: "Kidney Care Clinics", location: "Delhi NCR", icon: Building2 },
-  { name: "Pragma Pharmacy", location: "Punjab", icon: Building2 },
-  { name: "Aggarwal Medical & General Store", location: "Tughlakabad", icon: Building2 },
-  { name: "SastaSundar Healthbuddy Ltd", location: "Noida", icon: Building2 },
-  { name: "Other reputable pharmacies", location: "Delhi NCR", icon: Building2 },
+  { name: "⁠⁠Max Group of Hospitals", location: "All branches including Gurugram, Delhi, Shalimar Bagh, and Faridabad", icon: Hospital },
+  { name: "Fortis Group of Hospitals", location: "All India Institute of Medical Sciences", icon: Hospital },
+  { name: "Narayana Group of Hospitals", location: "Gurugram", icon: Hospital },
+  { name: "Medanta Medicity", location: "Gurugram", icon: Hospital },
+  { name: "Apollo Group of Hospitals", location: "Delhi", icon: Hospital },
+  { name: "Kailash Group of Hospitals", location: "Faridabad", icon: Hospital },
+  { name: "Sir Ganga Ram Hospital", location: "Delhi NCR", icon: Hospital },
+  { name: "Akash Hospital", location: "Delhi NCR", icon: Hospital },
+  { name: "Artemis Hospital", location: "Noida", icon: Hospital },
+  { name: "Jindal Hospital", location: "Noida and other locations", icon: Hospital },
+  { name: "K-D hospital", location: "Delhi", icon: Hospital },
+  { name: "Sarvodaya Hospital", location: "Haryana", icon: Hospital },
+  { name: "⁠K.D. Hospital", location: "Delhi", icon: Hospital },
+  { name: "City Hospital of Medical Science", location: "Gurugram", icon: Hospital },
+  { name: "⁠Synergy Hospital (Dehradun)", location: "Delhi NCR", icon: Hospital },
+  { name: "Krishna Hospital (Haldwani)", location: "Delhi NCR", icon: Building2 },
+  { name: "⁠AIIMS New Delhi", location: "Delhi NCR", icon: Building2 },
+  { name: "RML Hospital", location: "Punjab", icon: Building2 },
+  { name: "SJH Hospital", location: "Tughlakabad", icon: Building2 },
+  { name: "Neo Hospital (Noida)", location: "Noida", icon: Building2 },
+  { name: "K.K. Hospital", location: "Delhi NCR", icon: Building2 },
 ];
 
 const regions = [
   { name: "Delhi NCR", description: "National Capital Region", population: "30M+", icon: Building2 },
-  { name: "Uttar Pradesh", description: "India's Most Populous State", population: "200M+", icon: Building2 },
-  { name: "Haryana", description: "Industrial Hub", population: "25M+", icon: Building2 },
-  { name: "Punjab", description: "Agricultural Center", population: "28M+", icon: Building2 },
-  { name: "Uttarakhand", description: "Himalayan State", population: "10M+", icon: Building2 },
+  { name: "Haryana", description: "India's Most Populous State", population: "200M+", icon: Building2 },
+  { name: "Rajasthan", description: "Industrial Hub", population: "25M+", icon: Building2 },
+  { name: "Uttar Pradesh", description: "Agricultural Center", population: "28M+", icon: Building2 },
+  { name: "Punjab", description: "Himalayan State", population: "10M+", icon: Building2 },
   { name: "Himachal Pradesh", description: "Mountain Paradise", population: "7M+", icon: Building2 },
-  { name: "Karnataka", description: "Tech Capital", population: "61M+", icon: Building2 },
+  { name: "Uttrakhand", description: "Tech Capital", population: "61M+", icon: Building2 },
+  { name: "West Bengal", description: "Tech Capital", population: "61M+", icon: Building2 },
 ];
 
 const NetworkSection: React.FC = () => {
@@ -105,7 +106,7 @@ const NetworkSection: React.FC = () => {
                       className="flex-shrink-0 w-80 bg-white hover:bg-accent/50 transition-all duration-300 border-0 medical-shadow hover:scale-105"
                     >
                       <CardContent className="p-6">
-                        <div className="flex items-start gap-4">
+                        <div className="flex items-center gap-4">
                           <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-physician-blue/10 to-trust-green/10 rounded-xl flex items-center justify-center">
                             <IconComponent className="w-7 h-7 text-physician-blue" />
                           </div>
@@ -113,12 +114,12 @@ const NetworkSection: React.FC = () => {
                             <h3 className="font-montserrat font-700 text-lg text-professional-gray truncate mb-1">
                               {item.name}
                             </h3>
-                            <div className="flex items-start gap-1 mt-1">
+                            {/* <div className="flex items-start gap-1 mt-1">
                               <MapPin className="w-4 h-4 text-muted-foreground mt-0.5 flex-shrink-0" />
                               <p className="text-sm text-muted-foreground leading-relaxed">
                                 {item.location}
                               </p>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                       </CardContent>
