@@ -94,7 +94,7 @@ const EventGallery = () => {
     },
     {
       id: 22,
-      image: "/17.JPG"
+      image: "/17.png"
     },
     {
       id: 23,
