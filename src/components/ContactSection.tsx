@@ -48,7 +48,7 @@ const ContactSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary mb-4">Contact Us</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to take the next step in your health journey? Get in touch with our caring team.
+            At Radmex Healthcare, we believe in building strong collaborations with doctors, hospitals, and healthcare institutions, enabling us to deliver solutions that meet the highest standards of safety, efficacy, and patient care.
           </p>
         </div>
 

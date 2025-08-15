@@ -99,7 +99,7 @@ const StatsSection = () => {
             Nephrology by the Numbers
           </h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-            Consistent supply, quality-assured manufacturing, and nationwide reach—measurable impact for kidney care across India.
+            Our expertise lies in marketing, distribution, and therapeutic support. Through a robust nationwide network, we ensure that life-enhancing renal care products are available promptly and reliably where they are needed most.
           </p>
         </div>
 

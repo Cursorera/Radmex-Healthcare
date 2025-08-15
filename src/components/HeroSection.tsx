@@ -7,24 +7,18 @@ import { scrollToSection } from '@/lib/utils';
 const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center bg-gradient-to-br from-professional-white via-blue-50/30 to-green-50/20 overflow-hidden pt-24 md:pt-0">
-      {/* Floating Badge */}
-      {/* <div className="absolute top-24 right-8 z-10 animate-float">
-        <Badge className="bg-trust-green text-white px-4 py-2 text-sm font-semibold animate-pulse-subtle">
-          WorldClass Renal Care
-        </Badge>
-      </div> */}
 
       <div className="container bg-gradient-to-br from-professional-white to-blue-50/30 mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div className="space-y-8">
           <div className="space-y-6">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-montserrat font-800 text-professional-gray leading-tight">
-             Radmex Healthcare: 
-              <span className="text-physician-blue">Your Nephrology Manufacturing Partner</span>
+              Delivering Trusted Renal Therapies
+              <span className="text-physician-blue"> Across India</span>
             </h1>
 
             <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-            Powering renal and kidney care with specialized formulations and consistent supply. At Radmex Healthcare, our nephrology expertise and nationwide distribution network ensure timely access to trusted therapies across India.
+              Radmex Healthcare is a dedicated renal and nephrology-focused healthcare company committed to improving the quality of life for patients with kidney-related conditions. With a portfolio of specialized and high-quality therapies, we partner with leading manufacturers to bring advanced treatment options to healthcare professionals and patients across India.
             </p>
           </div>
 

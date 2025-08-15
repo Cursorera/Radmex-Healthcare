@@ -35,7 +35,8 @@ const Footer = () => {
                 className="h-20 w-auto"
               />
               <p className="text-black leading-relaxed">
-              Your trusted partner in renal <br></br> therapeutics—precision manufacturing, <br></br>reliable supply.
+                By combining deep therapeutic knowledge<br></br> with reliable distribution, Radmex Healthcare is <br></br>shaping the future of kidney care in<br></br> India — ensuring that quality therapies reach<br></br> every corner of the nation.
+              {/* Your trusted partner in renal <br></br> therapeutics—precision manufacturing, <br></br>reliable supply. */}
               </p>
             </div>
 
