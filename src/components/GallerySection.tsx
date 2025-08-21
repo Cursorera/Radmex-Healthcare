@@ -151,7 +151,7 @@ const GallerySection = () => {
     {
       id: 25,
       title: "Racidosis-EC-1000",
-      category: "Immuno Suppressants Range",
+      category: "Nephrological Range",
       image: "/Racidosis-100.jpeg"
     },
     {
@@ -159,6 +159,12 @@ const GallerySection = () => {
       title: "Mextrol-40",
       category: "Nephrological Range",
       image: "/Mextrol-40.jpeg"
+    },
+    {
+      id: 27,
+      title: "Vitinox HP - Junior",
+      category: "Nutritional Range",
+      image: "/vitinox-hp-jr.jpeg"
     },
   ];
 

@@ -135,6 +135,22 @@ const EventGallery = () => {
     {
       id: 32,
       image: "/30.jpg"
+    },
+    {
+      id: 33,
+      image: "/31.jpeg"
+    },
+    {
+      id: 34,
+      image: "/32.jpeg"
+    },
+    {
+      id: 35,
+      image: "/33.jpeg"
+    },
+    {
+      id: 36,
+      image: "/34.jpeg"
     }
   ];
 
